@@ -1,0 +1,116 @@
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+.form-container h2 {
+  margin-bottom: 20px;
+}
+.form-container .button-form {
+  font-size: 19px;
+  padding: 10px 25px;
+  border-radius: 6px;
+  background-color: #5b1bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-container .button-form:hover {
+  background-color: #0056b3;
+}
+
+#nick {
+  margin-bottom: 15px;
+}
+#nick label {
+  font-size: 19px;
+}
+#nick input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+#choice {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+#choice .title {
+  font-size: 25px;
+}
+#choice input {
+  margin: 10px 8px;
+}
+
+body {
+  background-color: #0a0a23;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+.name {
+  display: inline-block;
+  text-align: right;
+  min-width: 150px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}/*# sourceMappingURL=style.css.map */
